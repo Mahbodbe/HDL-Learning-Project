@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/devider/devider2_tb_isim_map.exe" -prj "D:/devider/devider2_tb_map.prj" "work.devider2_tb" 

@@ -1,0 +1,2 @@
+vhdl work "netgen/par/devider_15_timesim.vhd"
+vhdl work "devider_15_tb.vhd"

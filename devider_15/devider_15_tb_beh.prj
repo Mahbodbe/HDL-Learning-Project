@@ -1,0 +1,5 @@
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "FBFullAdder.vhd"
+vhdl work "devider_15.vhd"
+vhdl work "devider_15_tb.vhd"

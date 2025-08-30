@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/devider_15/devider_15.xst" -ofn "D:/devider_15/devider_15.syr" 
+xst -intstyle ise -ifn "D:/devider_15/devider_15.xst" -ofn "D:/devider_15/devider_15.syr" 
+xst -intstyle ise -ifn "D:/devider_15/devider_15.xst" -ofn "D:/devider_15/devider_15.syr" 
+xst -intstyle ise -ifn "D:/devider_15/devider_15.xst" -ofn "D:/devider_15/devider_15.syr" 
+xst -intstyle ise -ifn "D:/devider_15/devider_15.xst" -ofn "D:/devider_15/devider_15.syr" 
+xst -intstyle ise -ifn "D:/devider_15/devider_15.xst" -ofn "D:/devider_15/devider_15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 devider_15.ngc devider_15.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o devider_15_map.ncd devider_15.ngd devider_15.pcf 
+par -w -intstyle ise -ol high -t 1 devider_15_map.ncd devider_15.ncd devider_15.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml devider_15.twx devider_15.ncd -o devider_15.twr devider_15.pcf 
+netgen -intstyle ise -s 4  -pcf devider_15.pcf -rpw 100 -tpw 0 -ar Structure -tm devider_15 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim devider_15.ncd devider_15_timesim.vhd 

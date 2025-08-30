@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/devider/counter.xst" -ofn "D:/devider/counter.syr" 

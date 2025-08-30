@@ -1,0 +1,4 @@
+work	"FBFullAdder.vhd"
+work	"FullAdder.vhd"
+work	"HalfAdder.vhd"
+work	"devider.vhd"

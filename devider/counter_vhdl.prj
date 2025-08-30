@@ -1,0 +1,4 @@
+vhdl work "D:\devider\HalfAdder.vhd"
+vhdl work "D:\devider\FullAdder.vhd"
+vhdl work "D:\devider\FBFullAdder.vhd"
+vhdl work "D:\devider\devider.vhd"

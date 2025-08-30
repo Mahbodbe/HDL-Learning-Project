@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/devider_15/devider_15_tb_isim_beh.exe" -prj "D:/devider_15/devider_15_tb_beh.prj" "work.devider_15_tb" 
