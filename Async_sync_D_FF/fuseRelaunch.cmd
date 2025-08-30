@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Async_sync_D_FF/Async_sync_D_FF_tb_isim_beh.exe" -prj "D:/Async_sync_D_FF/Async_sync_D_FF_tb_beh.prj" "work.Async_sync_D_FF_tb" 

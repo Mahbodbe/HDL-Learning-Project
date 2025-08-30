@@ -1,0 +1,2 @@
+vhdl isim_temp "Async_sync_D_FF.vhd"
+vhdl isim_temp "Async_sync_D_FF_tb.vhd"
