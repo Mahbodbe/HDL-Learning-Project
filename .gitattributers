@@ -1,0 +1,13 @@
+* text=auto
+*.vhd  text eol=lf
+*.vhdl text eol=lf
+*.v    text eol=lf
+*.vh   text eol=lf
+*.tcl  text eol=lf
+*.py   text eol=lf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+*.png -text
+*.jpg -text
+*.pdf -text
+EOF
