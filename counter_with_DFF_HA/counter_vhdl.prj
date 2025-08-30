@@ -1,0 +1,5 @@
+vhdl work "D:\counter_with_DFF_HA\HalfAdder.vhd"
+vhdl work "D:\counter_with_DFF_HA\Async_sync_D_FF.vhd"
+vhdl work "D:\counter_with_DFF_HA\FB_Async_sync_D_FF.vhd"
+vhdl work "D:\counter_with_DFF_HA\FB_adder.vhd"
+vhdl work "D:\counter_with_DFF_HA\counter.vhd"

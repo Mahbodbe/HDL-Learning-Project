@@ -1,0 +1,6 @@
+vhdl isim_temp "HalfAdder.vhd"
+vhdl isim_temp "Async_sync_D_FF.vhd"
+vhdl isim_temp "FB_Async_sync_D_FF.vhd"
+vhdl isim_temp "FB_adder.vhd"
+vhdl isim_temp "counter.vhd"
+vhdl isim_temp "counter_tb.vhd"

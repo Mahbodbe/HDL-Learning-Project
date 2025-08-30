@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/counter_4bit_with_unisim/devider_tb_isim_beh.exe" -prj "D:/counter_4bit_with_unisim/devider_tb_beh.prj" "work.devider_tb" 

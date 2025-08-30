@@ -1,0 +1,5 @@
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "FBFullAdder.vhd"
+vhdl work "counter_15.vhd"
+vhdl work "counter_15_tb.vhd"

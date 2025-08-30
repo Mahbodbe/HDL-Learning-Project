@@ -1,0 +1,4 @@
+vhdl work "D:\counter_15\HalfAdder.vhd"
+vhdl work "D:\counter_15\FullAdder.vhd"
+vhdl work "D:\counter_15\FBFullAdder.vhd"
+vhdl work "D:\counter_15\counter_15.vhd"

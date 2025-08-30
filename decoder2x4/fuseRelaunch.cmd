@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/decoder2x4/decoder2x4_tb_isim_beh.exe" -prj "D:/decoder2x4/decoder2x4_tb_beh.prj" "work.decoder2x4_tb" 

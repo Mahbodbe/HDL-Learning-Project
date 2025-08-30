@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/decoder3x8/decoder3x8.xst" -ofn "D:/decoder3x8/decoder3x8.syr" 
+xst -intstyle ise -ifn "D:/decoder3x8/decoder3x8.xst" -ofn "D:/decoder3x8/decoder3x8.syr" 

@@ -1,0 +1,4 @@
+vhdl work "D:\counter_4bit_with_unisim\HalfAdder.vhd"
+vhdl work "D:\counter_4bit_with_unisim\FullAdder.vhd"
+vhdl work "D:\counter_4bit_with_unisim\FBFullAdder.vhd"
+vhdl work "D:\counter_4bit_with_unisim\counter.vhd"

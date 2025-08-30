@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/D_FlipFlop/D_FlipFlop_tb_isim_beh.exe" -prj "D:/D_FlipFlop/D_FlipFlop_tb_beh.prj" "work.D_FlipFlop_tb" 

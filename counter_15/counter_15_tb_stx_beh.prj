@@ -1,0 +1,5 @@
+vhdl isim_temp "HalfAdder.vhd"
+vhdl isim_temp "FullAdder.vhd"
+vhdl isim_temp "FBFullAdder.vhd"
+vhdl isim_temp "counter_15.vhd"
+vhdl isim_temp "counter_15_tb.vhd"

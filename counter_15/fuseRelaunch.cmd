@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/counter_15/counter_15_tb_isim_beh.exe" -prj "D:/counter_15/counter_15_tb_beh.prj" "work.counter_15_tb" 

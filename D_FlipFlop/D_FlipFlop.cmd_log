@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/D_FlipFlop/D_FlipFlop.xst" -ofn "D:/D_FlipFlop/D_FlipFlop.syr" 
+xst -intstyle ise -ifn "D:/D_FlipFlop/D_FlipFlop.xst" -ofn "D:/D_FlipFlop/D_FlipFlop.syr" 
+xst -intstyle ise -ifn "D:/D_FlipFlop/D_FlipFlop.xst" -ofn "D:/D_FlipFlop/D_FlipFlop.syr" 
+xst -intstyle ise -ifn "D:/D_FlipFlop/D_FlipFlop.xst" -ofn "D:/D_FlipFlop/D_FlipFlop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 D_FlipFlop.ngc D_FlipFlop.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o D_FlipFlop_map.ncd D_FlipFlop.ngd D_FlipFlop.pcf 
+par -w -intstyle ise -ol high -t 1 D_FlipFlop_map.ncd D_FlipFlop.ncd D_FlipFlop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml D_FlipFlop.twx D_FlipFlop.ncd -o D_FlipFlop.twr D_FlipFlop.pcf 
+xst -intstyle ise -ifn "D:/D_FlipFlop/D_FlipFlop.xst" -ofn "D:/D_FlipFlop/D_FlipFlop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 D_FlipFlop.ngc D_FlipFlop.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o D_FlipFlop_map.ncd D_FlipFlop.ngd D_FlipFlop.pcf 
+par -w -intstyle ise -ol high -t 1 D_FlipFlop_map.ncd D_FlipFlop.ncd D_FlipFlop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml D_FlipFlop.twx D_FlipFlop.ncd -o D_FlipFlop.twr D_FlipFlop.pcf 
