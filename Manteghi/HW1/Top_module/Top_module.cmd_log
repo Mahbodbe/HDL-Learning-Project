@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Manteghi/HW1/Top_module/Top_module.xst" -ofn "D:/Manteghi/HW1/Top_module/Top_module.syr" 
+xst -intstyle ise -ifn "D:/Manteghi/HW1/Top_module/Top_module.xst" -ofn "D:/Manteghi/HW1/Top_module/Top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 Top_module.ngc Top_module.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Top_module_map.ncd Top_module.ngd Top_module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_module_map.ncd Top_module.ncd Top_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Top_module.twx Top_module.ncd -o Top_module.twr Top_module.pcf 
+vhdtdtfi -lib work Encoder.vhd -lib work Decoder.vhd -lib work Top_module.vhd -prj Top_module -o Top_module.spl -module Top_module -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Top_module.spl D:/Manteghi/HW1/Top_module/Top_module.sym 
+xst -intstyle ise -ifn "D:/Manteghi/HW1/Top_module/Top_module.xst" -ofn "D:/Manteghi/HW1/Top_module/Top_module.syr" 
+xst -intstyle ise -ifn "D:/Manteghi/HW1/Top_module/Top_module.xst" -ofn "D:/Manteghi/HW1/Top_module/Top_module.syr" 
+xst -intstyle ise -ifn "D:/Manteghi/HW1/Top_module/Top_module.xst" -ofn "D:/Manteghi/HW1/Top_module/Top_module.syr" 
+xst -intstyle ise -ifn "D:/Manteghi/HW1/Top_module/Top_module.xst" -ofn "D:/Manteghi/HW1/Top_module/Top_module.syr" 

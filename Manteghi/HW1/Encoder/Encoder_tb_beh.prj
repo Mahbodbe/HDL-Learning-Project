@@ -1,0 +1,2 @@
+vhdl work "Encoder.vhd"
+vhdl work "Encoder_tb.vhd"

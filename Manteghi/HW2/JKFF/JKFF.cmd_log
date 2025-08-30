@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Manteghi/HW2/JKFF/JKFF.xst" -ofn "D:/Manteghi/HW2/JKFF/JKFF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 JKFF.ngc JKFF.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o JKFF_map.ncd JKFF.ngd JKFF.pcf 
+par -w -intstyle ise -ol high -t 1 JKFF_map.ncd JKFF.ncd JKFF.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml JKFF.twx JKFF.ncd -o JKFF.twr JKFF.pcf 

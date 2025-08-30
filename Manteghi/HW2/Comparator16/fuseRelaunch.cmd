@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Manteghi/HW2/Comparator16/comp_16_isim_beh.exe" -prj "D:/Manteghi/HW2/Comparator16/comp_16_beh.prj" "work.comp_16" 

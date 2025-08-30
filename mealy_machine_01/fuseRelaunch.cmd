@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/mealy_machine_01/mealy_01_tb_isim_beh.exe" -prj "D:/mealy_machine_01/mealy_01_tb_beh.prj" "work.mealy_01_tb" 

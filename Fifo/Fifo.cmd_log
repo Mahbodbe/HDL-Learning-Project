@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/Fifo/Fifo.xst" -ofn "D:/Fifo/Fifo.syr" 
+xst -intstyle ise -ifn "D:/Fifo/Fifo.xst" -ofn "D:/Fifo/Fifo.syr" 
+xst -intstyle ise -ifn "D:/Fifo/Fifo.xst" -ofn "D:/Fifo/Fifo.syr" 
+xst -intstyle ise -ifn "D:/Fifo/Fifo.xst" -ofn "D:/Fifo/Fifo.syr" 

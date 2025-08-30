@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/FullAdderProj/FullAdder_tb_isim_beh.exe" -prj "D:/FullAdderProj/FullAdder_tb_beh.prj" "work.FullAdder_tb" 

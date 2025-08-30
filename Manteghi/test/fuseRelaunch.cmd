@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Manteghi/test/comprator_isim_beh.exe" -prj "D:/Manteghi/test/comprator_beh.prj" "work.comprator" 

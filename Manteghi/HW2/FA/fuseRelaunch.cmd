@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Manteghi/HW2/FA/FA_tb_isim_beh.exe" -prj "D:/Manteghi/HW2/FA/FA_tb_beh.prj" "work.FA_tb" 

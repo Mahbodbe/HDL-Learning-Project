@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/HalfAdderProj/HalfAdder.xst" -ofn "D:/HalfAdderProj/HalfAdder.syr" 
+xst -intstyle ise -ifn "D:/HalfAdderProj/HalfAdder.xst" -ofn "D:/HalfAdderProj/HalfAdder.syr" 
+xst -intstyle ise -ifn "D:/HalfAdderProj/HalfAdder.xst" -ofn "D:/HalfAdderProj/HalfAdder.syr" 
+xst -intstyle ise -ifn "D:/HalfAdderProj/HalfAdder.xst" -ofn "D:/HalfAdderProj/HalfAdder.syr" 

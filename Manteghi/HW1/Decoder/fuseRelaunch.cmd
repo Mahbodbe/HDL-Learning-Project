@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Manteghi/HW1/Decoder/Decoder_tb_isim_beh.exe" -prj "D:/Manteghi/HW1/Decoder/Decoder_tb_beh.prj" "work.Decoder_tb" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/tbmultiplexer4x1/tbmultiplexer4x1_tb_isim_beh.exe" -prj "D:/tbmultiplexer4x1/tbmultiplexer4x1_tb_beh.prj" "work.tbmultiplexer4x1_tb" 

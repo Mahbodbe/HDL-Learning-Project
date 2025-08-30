@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Manteghi\test\comprator.ncd
+OUTFILE=D:\Manteghi\test\comprator.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=D:\Manteghi\test
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/Manteghi/test/comprator.xst" -ofn "D:/Manteghi/test/comprator.syr" 
+xst -intstyle ise -ifn "D:/Manteghi/test/comprator.xst" -ofn "D:/Manteghi/test/comprator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 comprator.ngc comprator.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o comprator_map.ncd comprator.ngd comprator.pcf 
+par -w -intstyle ise -ol high -t 1 comprator_map.ncd comprator.ncd comprator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml comprator.twx comprator.ncd -o comprator.twr comprator.pcf 
+vhdtdtfi -lib work comparator.vhd -prj test -o comprator.spl -module comprator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 comprator.spl D:/Manteghi/test/comprator.sym 
+vhdtdtfi -prj test -o D:/Manteghi/test/comprator.vhi -module comprator -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work comparator.vhd 
+bitgen -intstyle ise -f comprator.ut comprator.ncd 

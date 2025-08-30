@@ -1,0 +1,2 @@
+vhdl work "moore_01.vhd"
+vhdl work "moore_01_tb.vhd"

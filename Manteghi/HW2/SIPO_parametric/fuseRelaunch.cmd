@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Manteghi/HW2/SIPO_parametric/SIPO_tb_isim_beh.exe" -prj "D:/Manteghi/HW2/SIPO_parametric/SIPO_tb_beh.prj" "work.SIPO_tb" 

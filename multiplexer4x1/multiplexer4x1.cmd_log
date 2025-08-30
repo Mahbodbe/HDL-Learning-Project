@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/multiplexer4x1/multiplexer4x1.xst" -ofn "D:/multiplexer4x1/multiplexer4x1.syr" 
+xst -intstyle ise -ifn "D:/multiplexer4x1/multiplexer4x1.xst" -ofn "D:/multiplexer4x1/multiplexer4x1.syr" 
+xst -intstyle ise -ifn "D:/multiplexer4x1/multiplexer4x1.xst" -ofn "D:/multiplexer4x1/multiplexer4x1.syr" 
+xst -intstyle ise -ifn "D:/multiplexer4x1/multiplexer4x1.xst" -ofn "D:/multiplexer4x1/multiplexer4x1.syr" 

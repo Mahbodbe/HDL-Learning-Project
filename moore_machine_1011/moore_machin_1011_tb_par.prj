@@ -1,0 +1,2 @@
+vhdl work "netgen/par/moore_1011_timesim.vhd"
+vhdl work "moore_machin_1011_tb.vhd"

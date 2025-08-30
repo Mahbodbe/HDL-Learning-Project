@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Manteghi/Mux8x1/Mux2x1.xst" -ofn "D:/Manteghi/Mux8x1/Mux2x1.syr" 

@@ -1,0 +1,2 @@
+vhdl isim_temp "Encoder8x3.vhd"
+vhdl isim_temp "Encoder8x3_tb.vhd"

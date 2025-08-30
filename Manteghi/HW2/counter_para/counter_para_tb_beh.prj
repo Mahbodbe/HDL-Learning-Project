@@ -1,0 +1,4 @@
+vhdl work "FA1.vhd"
+vhdl work "FA_Parametric.vhd"
+vhdl work "counter.vhd"
+vhdl work "counter_para_tb.vhd"

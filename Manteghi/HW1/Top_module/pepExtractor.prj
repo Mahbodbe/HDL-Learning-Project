@@ -1,0 +1,3 @@
+work	"Decoder.vhd"
+work	"Encoder.vhd"
+work	"Top_module.vhd"

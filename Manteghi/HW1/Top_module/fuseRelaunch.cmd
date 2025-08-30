@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Manteghi/HW1/Top_module/Top_module_tb_isim_beh.exe" -prj "D:/Manteghi/HW1/Top_module/Top_module_tb_beh.prj" "work.Top_module_tb" 

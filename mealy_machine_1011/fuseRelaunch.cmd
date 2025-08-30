@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/mealy_machine_1011/mealy_1011_tb_isim_beh.exe" -prj "D:/mealy_machine_1011/mealy_1011_tb_beh.prj" "work.mealy_1011_tb" 

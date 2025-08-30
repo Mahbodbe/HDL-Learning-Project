@@ -1,0 +1,242 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml Top_module.twx Top_module.ncd -o Top_module.twr
+Top_module.pcf
+
+Design file:              Top_module.ncd
+Physical constraint file: Top_module.pcf
+Device,package,speed:     xc3s400,pq208,-4 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Data<0>        |Dataout<0>     |   11.891|
+Data<0>        |Dataout<1>     |   12.850|
+Data<0>        |Dataout<2>     |   11.720|
+Data<0>        |Dataout<3>     |   11.368|
+Data<0>        |Dataout<4>     |   12.841|
+Data<0>        |Dataout<5>     |   12.753|
+Data<0>        |Dataout<6>     |   13.415|
+Data<0>        |Dataout<7>     |   13.966|
+Data<0>        |Valid          |   13.672|
+Data<1>        |Dataout<0>     |   12.651|
+Data<1>        |Dataout<1>     |   13.487|
+Data<1>        |Dataout<2>     |   12.357|
+Data<1>        |Dataout<3>     |   12.356|
+Data<1>        |Dataout<4>     |   13.972|
+Data<1>        |Dataout<5>     |   13.884|
+Data<1>        |Dataout<6>     |   14.462|
+Data<1>        |Dataout<7>     |   15.013|
+Data<1>        |Valid          |   13.844|
+Data<2>        |Dataout<0>     |   12.053|
+Data<2>        |Dataout<1>     |   13.384|
+Data<2>        |Dataout<2>     |   12.254|
+Data<2>        |Dataout<3>     |   12.253|
+Data<2>        |Dataout<4>     |   13.869|
+Data<2>        |Dataout<5>     |   13.781|
+Data<2>        |Dataout<6>     |   14.049|
+Data<2>        |Dataout<7>     |   14.128|
+Data<2>        |Valid          |   13.834|
+Data<3>        |Dataout<0>     |   11.838|
+Data<3>        |Dataout<1>     |   12.441|
+Data<3>        |Dataout<2>     |   11.311|
+Data<3>        |Dataout<3>     |   11.230|
+Data<3>        |Dataout<4>     |   12.432|
+Data<3>        |Dataout<5>     |   12.344|
+Data<3>        |Dataout<6>     |   13.649|
+Data<3>        |Dataout<7>     |   14.200|
+Data<3>        |Valid          |   13.263|
+Data<4>        |Dataout<0>     |   11.751|
+Data<4>        |Dataout<1>     |   12.358|
+Data<4>        |Dataout<2>     |   11.228|
+Data<4>        |Dataout<3>     |   11.227|
+Data<4>        |Dataout<4>     |   12.843|
+Data<4>        |Dataout<5>     |   12.755|
+Data<4>        |Dataout<6>     |   13.562|
+Data<4>        |Dataout<7>     |   14.113|
+Data<4>        |Valid          |   12.694|
+Data<5>        |Dataout<0>     |   11.621|
+Data<5>        |Dataout<1>     |   13.183|
+Data<5>        |Dataout<2>     |   12.053|
+Data<5>        |Dataout<3>     |   12.052|
+Data<5>        |Dataout<4>     |   13.668|
+Data<5>        |Dataout<5>     |   13.580|
+Data<5>        |Dataout<6>     |   13.848|
+Data<5>        |Dataout<7>     |   13.737|
+Data<5>        |Valid          |   13.519|
+Data<6>        |Dataout<0>     |   12.895|
+Data<6>        |Dataout<1>     |   14.081|
+Data<6>        |Dataout<2>     |   12.951|
+Data<6>        |Dataout<3>     |   13.293|
+Data<6>        |Dataout<4>     |   14.096|
+Data<6>        |Dataout<5>     |   14.008|
+Data<6>        |Dataout<6>     |   15.002|
+Data<6>        |Dataout<7>     |   15.553|
+Data<6>        |Valid          |   14.359|
+Data<7>        |Dataout<0>     |   12.566|
+Data<7>        |Dataout<1>     |   13.211|
+Data<7>        |Dataout<2>     |   12.081|
+Data<7>        |Dataout<3>     |   12.080|
+Data<7>        |Dataout<4>     |   13.696|
+Data<7>        |Dataout<5>     |   13.608|
+Data<7>        |Dataout<6>     |   14.377|
+Data<7>        |Dataout<7>     |   14.928|
+Data<7>        |Valid          |   14.695|
+Oddmode        |Valid          |   13.406|
+error<0>       |Valid          |   13.358|
+error<1>       |Dataout<0>     |   12.540|
+error<1>       |Dataout<1>     |   13.499|
+error<1>       |Dataout<2>     |   12.369|
+error<1>       |Dataout<3>     |   12.017|
+error<1>       |Dataout<4>     |   13.490|
+error<1>       |Dataout<5>     |   13.402|
+error<1>       |Dataout<6>     |   14.064|
+error<1>       |Dataout<7>     |   14.615|
+error<1>       |Valid          |   14.321|
+error<2>       |Dataout<0>     |   11.184|
+error<2>       |Dataout<1>     |   11.829|
+error<2>       |Dataout<2>     |   10.699|
+error<2>       |Dataout<3>     |   10.698|
+error<2>       |Dataout<4>     |   12.314|
+error<2>       |Dataout<5>     |   12.226|
+error<2>       |Dataout<6>     |   12.995|
+error<2>       |Dataout<7>     |   13.546|
+error<2>       |Valid          |   12.599|
+error<3>       |Dataout<0>     |   12.271|
+error<3>       |Dataout<1>     |   13.230|
+error<3>       |Dataout<2>     |   12.100|
+error<3>       |Dataout<3>     |   11.748|
+error<3>       |Dataout<4>     |   13.221|
+error<3>       |Dataout<5>     |   13.133|
+error<3>       |Dataout<6>     |   13.795|
+error<3>       |Dataout<7>     |   14.346|
+error<3>       |Valid          |   14.052|
+error<4>       |Dataout<0>     |   11.555|
+error<4>       |Dataout<1>     |   12.158|
+error<4>       |Dataout<2>     |   11.028|
+error<4>       |Dataout<3>     |   10.947|
+error<4>       |Dataout<4>     |   12.149|
+error<4>       |Dataout<5>     |   12.061|
+error<4>       |Dataout<6>     |   13.366|
+error<4>       |Dataout<7>     |   13.917|
+error<4>       |Valid          |   12.980|
+error<5>       |Dataout<0>     |   11.496|
+error<5>       |Dataout<1>     |   12.455|
+error<5>       |Dataout<2>     |   11.325|
+error<5>       |Dataout<3>     |   10.973|
+error<5>       |Dataout<4>     |   12.446|
+error<5>       |Dataout<5>     |   12.358|
+error<5>       |Dataout<6>     |   13.020|
+error<5>       |Dataout<7>     |   13.571|
+error<5>       |Valid          |   13.277|
+error<6>       |Dataout<0>     |   12.359|
+error<6>       |Dataout<1>     |   13.420|
+error<6>       |Dataout<2>     |   12.290|
+error<6>       |Dataout<3>     |   12.632|
+error<6>       |Dataout<4>     |   13.681|
+error<6>       |Dataout<5>     |   13.593|
+error<6>       |Dataout<6>     |   14.341|
+error<6>       |Dataout<7>     |   14.892|
+error<6>       |Valid          |   13.698|
+error<7>       |Dataout<0>     |   11.619|
+error<7>       |Dataout<1>     |   13.122|
+error<7>       |Dataout<2>     |   11.992|
+error<7>       |Dataout<3>     |   12.334|
+error<7>       |Dataout<4>     |   13.192|
+error<7>       |Dataout<5>     |   13.104|
+error<7>       |Dataout<6>     |   14.043|
+error<7>       |Dataout<7>     |   14.594|
+error<7>       |Valid          |   13.637|
+error<8>       |Dataout<0>     |   11.807|
+error<8>       |Dataout<1>     |   12.993|
+error<8>       |Dataout<2>     |   11.863|
+error<8>       |Dataout<3>     |   12.205|
+error<8>       |Dataout<4>     |   13.008|
+error<8>       |Dataout<5>     |   12.920|
+error<8>       |Dataout<6>     |   13.914|
+error<8>       |Dataout<7>     |   14.465|
+error<8>       |Valid          |   13.271|
+error<9>       |Dataout<0>     |   11.075|
+error<9>       |Dataout<1>     |   12.578|
+error<9>       |Dataout<2>     |   11.448|
+error<9>       |Dataout<3>     |   11.790|
+error<9>       |Dataout<4>     |   12.593|
+error<9>       |Dataout<5>     |   12.505|
+error<9>       |Dataout<6>     |   13.499|
+error<9>       |Dataout<7>     |   14.050|
+error<9>       |Valid          |   13.228|
+error<10>      |Dataout<0>     |   12.640|
+error<10>      |Dataout<1>     |   13.285|
+error<10>      |Dataout<2>     |   12.155|
+error<10>      |Dataout<3>     |   12.154|
+error<10>      |Dataout<4>     |   13.770|
+error<10>      |Dataout<5>     |   13.682|
+error<10>      |Dataout<6>     |   14.451|
+error<10>      |Dataout<7>     |   15.002|
+error<10>      |Valid          |   13.504|
+error<11>      |Dataout<0>     |    9.955|
+error<11>      |Dataout<1>     |   11.517|
+error<11>      |Dataout<2>     |   10.387|
+error<11>      |Dataout<3>     |   10.386|
+error<11>      |Dataout<4>     |   12.002|
+error<11>      |Dataout<5>     |   11.914|
+error<11>      |Dataout<6>     |   12.182|
+error<11>      |Dataout<7>     |   12.071|
+error<11>      |Valid          |   12.241|
+error<12>      |Dataout<0>     |   11.730|
+error<12>      |Dataout<1>     |   11.133|
+error<12>      |Dataout<2>     |   10.778|
+error<12>      |Dataout<3>     |   11.122|
+error<12>      |Dataout<4>     |   11.579|
+error<12>      |Dataout<5>     |   11.703|
+error<12>      |Dataout<6>     |   13.541|
+error<12>      |Dataout<7>     |   14.092|
+error<12>      |Valid          |   12.578|
+---------------+---------------+---------+
+
+
+Analysis completed Fri May 16 18:24:34 2025 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4491 MB
+
+
+

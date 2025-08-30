@@ -1,0 +1,8 @@
+[Inputs]
+Oddmode
+=Data[7:0]=
+=error[12:0]=
+[Outputs]
+Valid
+=Dataout[7:0]=
+[BiDir]

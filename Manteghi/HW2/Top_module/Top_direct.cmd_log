@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Manteghi/HW2/Top_module/Top_direct.xst" -ofn "D:/Manteghi/HW2/Top_module/Top_direct.syr" 

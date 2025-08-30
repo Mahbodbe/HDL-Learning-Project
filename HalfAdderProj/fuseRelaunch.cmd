@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/HalfAdderProj/HalfAdder_tb_isim_beh.exe" -prj "D:/HalfAdderProj/HalfAdder_tb_beh.prj" "work.HalfAdder_tb" 

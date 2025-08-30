@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/Manteghi/HW2/counter_para/counter.xst" -ofn "D:/Manteghi/HW2/counter_para/counter.syr" 
+xst -intstyle ise -ifn "D:/Manteghi/HW2/counter_para/counter.xst" -ofn "D:/Manteghi/HW2/counter_para/counter.syr" 
+xst -intstyle ise -ifn "D:/Manteghi/HW2/counter_para/counter.xst" -ofn "D:/Manteghi/HW2/counter_para/counter.syr" 
+xst -intstyle ise -ifn "D:/Manteghi/HW2/counter_para/counter.xst" -ofn "D:/Manteghi/HW2/counter_para/counter.syr" 

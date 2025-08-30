@@ -1,0 +1,3 @@
+vhdl isim_temp "FA1.vhd"
+vhdl isim_temp "FA_Parametric.vhd"
+vhdl isim_temp "FA_tb.vhd"

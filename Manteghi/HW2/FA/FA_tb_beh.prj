@@ -1,0 +1,3 @@
+vhdl work "FA1.vhd"
+vhdl work "FA_Parametric.vhd"
+vhdl work "FA_tb.vhd"

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/FB_adder1/FB_adder.xst" -ofn "D:/FB_adder1/FB_adder.syr" 
+xst -intstyle ise -ifn "D:/FB_adder1/FB_adder.xst" -ofn "D:/FB_adder1/FB_adder.syr" 

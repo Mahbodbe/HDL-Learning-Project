@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Manteghi/HW2/counter_para/counter_para_tb_isim_beh.exe" -prj "D:/Manteghi/HW2/counter_para/counter_para_tb_beh.prj" "work.counter_para_tb" 

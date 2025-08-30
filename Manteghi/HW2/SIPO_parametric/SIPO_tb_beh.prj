@@ -1,0 +1,2 @@
+vhdl work "SIPO_parametric.vhd"
+vhdl work "SIPO_tb.vhd"

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/moore_machine_1011/moore_1011.xst" -ofn "D:/moore_machine_1011/moore_1011.syr" 
+xst -intstyle ise -ifn "D:/moore_machine_1011/moore_1011.xst" -ofn "D:/moore_machine_1011/moore_1011.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 moore_1011.ngc moore_1011.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o moore_1011_map.ncd moore_1011.ngd moore_1011.pcf 
+par -w -intstyle ise -ol high -t 1 moore_1011_map.ncd moore_1011.ncd moore_1011.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml moore_1011.twx moore_1011.ncd -o moore_1011.twr moore_1011.pcf 
+netgen -intstyle ise -s 4  -pcf moore_1011.pcf -rpw 100 -tpw 0 -ar Structure -tm moore_1011 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim moore_1011.ncd moore_1011_timesim.vhd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Manteghi/Mux8x1/Mux8x1_tb_isim_beh.exe" -prj "D:/Manteghi/Mux8x1/Mux8x1_tb_beh.prj" "work.Mux8x1_tb" 

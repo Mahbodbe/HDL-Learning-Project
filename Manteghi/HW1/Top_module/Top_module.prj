@@ -1,0 +1,3 @@
+vhdl work "Encoder.vhd"
+vhdl work "Decoder.vhd"
+vhdl work "Top_module.vhd"

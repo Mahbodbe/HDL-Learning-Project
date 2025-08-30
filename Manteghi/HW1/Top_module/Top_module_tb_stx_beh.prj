@@ -1,0 +1,4 @@
+vhdl isim_temp "Encoder.vhd"
+vhdl isim_temp "Decoder.vhd"
+vhdl isim_temp "Top_module.vhd"
+vhdl isim_temp "Top_module_tb.vhd"

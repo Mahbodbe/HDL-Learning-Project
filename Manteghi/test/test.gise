@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="test.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="comprator.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="comprator.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="comprator.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="comprator.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="comprator.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="comprator.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="comprator.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="comprator.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="comprator.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="comprator.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="comprator.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="comprator.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="comprator.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comprator.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="comprator.ptwx"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="comprator.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="comprator.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="comprator.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="comprator.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="comprator.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="comprator.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="comprator.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="comprator.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="comprator.vhi"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="comprator.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="comprator.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comprator_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comprator_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="comprator_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comprator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="comprator_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="comprator_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="comprator_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="comprator_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="comprator_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comprator_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comprator_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="comprator_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="comprator_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comprator_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comprator_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="comprator_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="comprator_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comprator_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comprator_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1747314056" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1747314056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314056" xil_pn:in_ck="-4887612054744024056" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1747314056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="comparator.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314056" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5896452984597152922" xil_pn:start_ts="1747314056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314056" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1272009087266252626" xil_pn:start_ts="1747314056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314056" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3784019126219609776" xil_pn:start_ts="1747314056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314056" xil_pn:in_ck="-4887612054744024056" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1747314056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="comparator.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314065" xil_pn:in_ck="-4887612054744024056" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5130829239726516572" xil_pn:start_ts="1747314056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="comprator_beh.prj"/>
+      <outfile xil_pn:name="comprator_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314066" xil_pn:in_ck="4095759922264952166" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8966372591175066255" xil_pn:start_ts="1747314065">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="comprator_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313815" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1747313814">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313815" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-9095088689524809646" xil_pn:start_ts="1747313815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313815" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3784019126219609776" xil_pn:start_ts="1747313815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313815" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1747313815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313815" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5896452984597152922" xil_pn:start_ts="1747313815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313815" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249795389316" xil_pn:start_ts="1747313815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313815" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-7998483347557783910" xil_pn:start_ts="1747313815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313860" xil_pn:in_ck="-4887612054744024056" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-211533513994663218" xil_pn:start_ts="1747313848">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="comprator.lso"/>
+      <outfile xil_pn:name="comprator.ngc"/>
+      <outfile xil_pn:name="comprator.ngr"/>
+      <outfile xil_pn:name="comprator.prj"/>
+      <outfile xil_pn:name="comprator.stx"/>
+      <outfile xil_pn:name="comprator.syr"/>
+      <outfile xil_pn:name="comprator.xst"/>
+      <outfile xil_pn:name="comprator_vhdl.prj"/>
+      <outfile xil_pn:name="comprator_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313864" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1202179224726690703" xil_pn:start_ts="1747313864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313875" xil_pn:in_ck="4882843954492799613" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="5096724242794152312" xil_pn:start_ts="1747313864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="comprator.bld"/>
+      <outfile xil_pn:name="comprator.ngd"/>
+      <outfile xil_pn:name="comprator_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313892" xil_pn:in_ck="4882843954492799614" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-4775573358763839746" xil_pn:start_ts="1747313875">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="comprator.pcf"/>
+      <outfile xil_pn:name="comprator_map.map"/>
+      <outfile xil_pn:name="comprator_map.mrp"/>
+      <outfile xil_pn:name="comprator_map.ncd"/>
+      <outfile xil_pn:name="comprator_map.ngm"/>
+      <outfile xil_pn:name="comprator_map.xrpt"/>
+      <outfile xil_pn:name="comprator_summary.xml"/>
+      <outfile xil_pn:name="comprator_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313910" xil_pn:in_ck="-5587052244271966057" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="8251173951899154272" xil_pn:start_ts="1747313892">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="comprator.ncd"/>
+      <outfile xil_pn:name="comprator.pad"/>
+      <outfile xil_pn:name="comprator.par"/>
+      <outfile xil_pn:name="comprator.ptwx"/>
+      <outfile xil_pn:name="comprator.unroutes"/>
+      <outfile xil_pn:name="comprator.xpi"/>
+      <outfile xil_pn:name="comprator_pad.csv"/>
+      <outfile xil_pn:name="comprator_pad.txt"/>
+      <outfile xil_pn:name="comprator_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314005" xil_pn:in_ck="4882843954492799482" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="4026351017656627060" xil_pn:start_ts="1747313996">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="comprator.bgn"/>
+      <outfile xil_pn:name="comprator.bit"/>
+      <outfile xil_pn:name="comprator.drc"/>
+      <outfile xil_pn:name="comprator.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1747314007" xil_pn:in_ck="4882843954492786628" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-6745644827150672321" xil_pn:start_ts="1747314005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1747313910" xil_pn:in_ck="4882843954492799482" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1747313905">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="comprator.twr"/>
+      <outfile xil_pn:name="comprator.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>
